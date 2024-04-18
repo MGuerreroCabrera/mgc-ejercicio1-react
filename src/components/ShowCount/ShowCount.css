@@ -1,0 +1,26 @@
+.showcount-container {
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    min-width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #343131;
+}
